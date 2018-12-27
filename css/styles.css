@@ -1,0 +1,62 @@
+/**********************TAG SELECTORS*************************/
+
+/* Tags are always overwritten by class or id selectors */
+
+h1 {
+  font-size: 100px;
+}
+
+
+img:hover  {
+  background-color: gold;
+}
+
+br {
+  line-height: 5em;
+}
+
+
+
+/***********************CLASS SECECTORS***********************/
+
+/* Classes can be used for many element, as an example if you are going to group elements that will have a similar style */
+
+.bacon {
+  filter: saturate(7);
+  background: none;
+}
+
+.broccoli {
+  filter: brightness(2);
+}
+
+.circular {
+  border-radius: 100%;
+}
+
+.button {
+  border: 1px solid grey;
+  border-radius: 33px;
+  padding: 5px;
+}
+
+.space {
+  padding-left: 10px;
+  color: #4885ed;
+  font-size: 130%;
+}
+
+/***********************ID SECECTORS***********************/
+
+
+/* ID is only used for a single element */
+
+#heading:hover {
+  color: orange;
+  font-size: 100px;
+}
+
+#svg {
+  width: 40px;
+  height: auto;
+}
